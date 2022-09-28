@@ -1,0 +1,36 @@
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  background-color: #279989;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+main section {
+  background-color: #44a080;
+  color: white;
+}
+
+.añadir {
+  border-radius: 50px;
+  background-color: white;
+}
+.añadidos {
+  background-color: #ffc845;
+  height: 300px;
+}
+.comprados {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body {
+  margin: 0;
+  padding: 10px;
+}
