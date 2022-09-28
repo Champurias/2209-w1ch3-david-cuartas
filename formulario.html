@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="/icons8-cerveza-16.png" />
   </head>
 
   <body>
@@ -19,13 +20,19 @@
     </header>
     <main>
       <section class="comprados">
-        <button class="añadir">+</button>
+        <a href="/index.html"> <button class="añadir">-</button></a>
         <h2>2/3 comprados</h2>
       </section>
-      <section class="añadidos">
-        <label><input type="checkbox" /> pan</label><br />
-        <label><input type="checkbox" /> fruta</label><br />
-        <label><input type="checkbox" /> agua</label><br />
+      <section class="formulario">
+        <h2>Añadir Articulo</h2>
+        <form name="formulario" method="post">
+          <p>Nombre:</p>
+          <input type="text" name="nombre" />
+          <p>Precio:</p>
+          <input type="text" name="nombre" />
+          <br />
+          <input type="submit" value="Enviar" />
+        </form>
       </section>
     </main>
   </body>

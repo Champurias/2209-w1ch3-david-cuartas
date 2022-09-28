@@ -33,4 +33,22 @@ main section {
 body {
   margin: 0;
   padding: 10px;
+  font-family: "system font stack", Arial, Helvetica, sans-serif;
+}
+
+.formulario {
+  background-color: #ffc845;
+  height: 300px;
+  color: black;
+}
+.formulario h2 {
+  margin: 0;
+}
+input[type="submit"] {
+  background-color: #279989;
+  color: white;
+}
+.tachado {
+  text-decoration: line-through;
+  color: black;
 }
